@@ -14,7 +14,8 @@ A flash loan protocol based on [Aave](https://aave.com/) and [Compound](https://
 
 - [Thunder Loans](#thunder-loans)
 - [About](#about)
-- [Getting Started](#getting-started)
+  - [Roles](#roles)
+- [Getting Started$$](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
     - [Optional Gitpod](#optional-gitpod)
@@ -38,7 +39,13 @@ A flash loan is a loan that exists for exactly 1 transaction. A user can borrow 
 
 Users additionally have to pay a small fee to the protocol depending on how much money they borrow. 
 
-# Getting Started
+## Roles
+
+- Owner: The only one who can change the `feeAddress`, denominated by the `_owner` variable.
+- Fee User: The user who takes a cut of raffle entrance fees. Denominated by the `feeAddress` variable.
+- Raffle Entrant: Anyone who enters the raffle. Denominated by being in the `players` array.
+
+# Getting Started$$
 
 ## Requirements
 
