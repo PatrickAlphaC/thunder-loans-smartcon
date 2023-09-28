@@ -1,4 +1,6 @@
-# Thunder Loan
+# Thunder Loans
+
+*This is a sneak peek of the upcoming Smart Contract Security, Auditing, and Assembly full course.*
 
 <br/>
 <p align="center">
@@ -10,7 +12,7 @@
 A flash loan protocol based on [Aave](https://aave.com/) and [Compound](https://compound.finance/).
 
 
-- [Thunder Loan](#thunder-loan)
+- [Thunder Loans](#thunder-loans)
 - [About](#about)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
